@@ -161,7 +161,7 @@ page_type | languages | products
 **Training 6 - [SQL](https://app.codility.com/programmers/trainings/6/)**
 * 🔵 ~~**SqlSum** : Calculate sum of elements.~~
 * 🟢 ~~**SqlEventsDelta** : Compute the difference between the latest and the second latest value for each event type.~~
-* 🟠 **SqlWorldCup** : Given a list of matches in a group stage of the soccer World Cup, compute the number of points each team currently has.
+* 🟠 ~~**SqlWorldCup** : Given a list of matches in a group stage of the soccer World Cup, compute the number of points each team currently has.~~
 <br>
 
 **Training 7 - [Data Structures](https://app.codility.com/programmers/trainings/7/)**
