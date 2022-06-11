@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A0CE67326C033140000AD3F /* Training5_ParkingBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */; };
+		7ADD23AF2699E19400333A52 /* Training4_FirstUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23AE2699E19400333A52 /* Training4_FirstUnique.swift */; };
+		7ADD23B12699E22100333A52 /* Training4_DisappearingPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B02699E22100333A52 /* Training4_DisappearingPairs.swift */; };
+		7ADD23B32699E25A00333A52 /* Training5_ThreeLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */; };
+		7AF0409D26C027AE00324563 /* Training5_ParityDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF0409C26C027AE00324563 /* Training5_ParityDegree.swift */; };
+		FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */; };
+		FA03AEB21EA608C600663D2F /* Training4_StrSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB11EA608C600663D2F /* Training4_StrSymmetryPoint.swift */; };
+		FA03AEB41EA60D5800663D2F /* Training4_TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB31EA60D5800663D2F /* Training4_TreeHeight.swift */; };
+		FA03AEB61EA63AE400663D2F /* Training4_ArrayInversionCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB51EA63AE400663D2F /* Training4_ArrayInversionCount.swift */; };
+		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
+		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
+		FA12631D2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */; };
+		FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */; };
+		FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */; };
+		FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */; };
+		FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */; };
+		FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */; };
+		FA1F2A071E953B0D002437F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A061E953B0D002437F3 /* main.swift */; };
+		FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */; };
+		FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */; };
+		FA1F2A2B1E953C66002437F3 /* Lesson2_CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */; };
+		FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */; };
+		FA1F2A2D1E953C66002437F3 /* Lesson3_PermMissingElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */; };
+		FA1F2A2E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */; };
+		FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */; };
+		FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */; };
+		FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */; };
+		FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */; };
+		FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */; };
+		FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */; };
+		FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */; };
+		FA1F2A361E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */; };
+		FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */; };
+		FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */; };
+		FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */; };
+		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
+		FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */; };
+		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
+		FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35586922B579060096503A /* Lesson13_Ladder.swift */; };
+		FA35586C22B5792F0096503A /* Lesson13_FibFrog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */; };
+		FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */; };
+		FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */; };
+		FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */; };
+		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */; };
+		FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */; };
+		FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */; };
+		FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */; };
+		FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */; };
+		FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */; };
+		FA7C20921EA77E290048284F /* Training4_PolygonConcavityIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C20911EA77E290048284F /* Training4_PolygonConcavityIndex.swift */; };
+		FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF8851EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift */; };
+		FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */; };
+		FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */; };
+		FA8EF88C1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EF88B1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift */; };
+		FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */; };
+		FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */; };
+		FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */; };
+		FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */; };
+		FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */; };
+		FA96D8EE22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */; };
+		FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */; };
+		FA96D8F222BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */; };
+		FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */; };
+		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
+		FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */; };
+		FAD7743024CCBF0900185FBA /* SwiftLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */; };
+		FAD7743224CCBF1F00185FBA /* Lesson91_TreeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */; };
+		FAD7743424CCBF2600185FBA /* Lesson91_HilbertMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */; };
+		FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */; };
+		FADC82FF22E9F5AC0072D77C /* Lesson92_DiamondsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA1F2A011E953B0D002437F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ParkingBill.swift; sourceTree = "<group>"; };
+		7ADD23AE2699E19400333A52 /* Training4_FirstUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4_FirstUnique.swift; sourceTree = "<group>"; };
+		7ADD23B02699E22100333A52 /* Training4_DisappearingPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4_DisappearingPairs.swift; sourceTree = "<group>"; };
+		7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ThreeLetters.swift; sourceTree = "<group>"; };
+		7AF0409C26C027AE00324563 /* Training5_ParityDegree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ParityDegree.swift; sourceTree = "<group>"; };
+		FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_SqlSum.swift; sourceTree = "<group>"; };
+		FA03AEB11EA608C600663D2F /* Training4_StrSymmetryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training4_StrSymmetryPoint.swift; sourceTree = "<group>"; };
+		FA03AEB31EA60D5800663D2F /* Training4_TreeHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training4_TreeHeight.swift; sourceTree = "<group>"; };
+		FA03AEB51EA63AE400663D2F /* Training4_ArrayInversionCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training4_ArrayInversionCount.swift; sourceTree = "<group>"; };
+		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
+		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
+		FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12_CommonPrimeDivisors.swift; sourceTree = "<group>"; };
+		FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_SlalomSkiing.swift; sourceTree = "<group>"; };
+		FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_CountFactors.swift; sourceTree = "<group>"; };
+		FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_MinPerimeterRectangle.swift; sourceTree = "<group>"; };
+		FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson16_TieRopes.swift; sourceTree = "<group>"; };
+		FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_RectangleBuilderGreaterArea.swift; sourceTree = "<group>"; };
+		FA1F2A031E953B0D002437F3 /* CodilityLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodilityLessons; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1F2A061E953B0D002437F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FA1F2A111E953B44002437F3 /* CodilityLessonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodilityLessonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1F2A151E953B44002437F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_Iterations.swift; sourceTree = "<group>"; };
+		FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_OddOccurrencesInArray.swift; sourceTree = "<group>"; };
+		FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_CyclicRotation.swift; sourceTree = "<group>"; };
+		FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_FrogJmp.swift; sourceTree = "<group>"; };
+		FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_PermMissingElem.swift; sourceTree = "<group>"; };
+		FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_TapeEquilibrium.swift; sourceTree = "<group>"; };
+		FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_MissingInteger.swift; sourceTree = "<group>"; };
+		FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_PermCheck.swift; sourceTree = "<group>"; };
+		FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_FrogRiverOne.swift; sourceTree = "<group>"; };
+		FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_MaxCounters.swift; sourceTree = "<group>"; };
+		FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_CountDiv.swift; sourceTree = "<group>"; };
+		FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_PassingCars.swift; sourceTree = "<group>"; };
+		FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_MinAvgTwoSlice.swift; sourceTree = "<group>"; };
+		FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_GenomicRangeQuery.swift; sourceTree = "<group>"; };
+		FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Distinct.swift; sourceTree = "<group>"; };
+		FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_MaxProductOfThree.swift; sourceTree = "<group>"; };
+		FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Triangle.swift; sourceTree = "<group>"; };
+		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
+		FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10_Flags.swift; sourceTree = "<group>"; };
+		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
+		FA35586922B579060096503A /* Lesson13_Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13_Ladder.swift; sourceTree = "<group>"; };
+		FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13_FibFrog.swift; sourceTree = "<group>"; };
+		FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountSemiprimes.swift; sourceTree = "<group>"; };
+		FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountNonDivisible.swift; sourceTree = "<group>"; };
+		FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson17_MinAbsSum.swift; sourceTree = "<group>"; };
+		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Brackets.swift; sourceTree = "<group>"; };
+		FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Fish.swift; sourceTree = "<group>"; };
+		FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Nesting.swift; sourceTree = "<group>"; };
+		FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_StoneWall.swift; sourceTree = "<group>"; };
+		FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8_EquiLeader.swift; sourceTree = "<group>"; };
+		FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8_Dominator.swift; sourceTree = "<group>"; };
+		FA7C20911EA77E290048284F /* Training4_PolygonConcavityIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Training4_PolygonConcavityIndex.swift; sourceTree = "<group>"; };
+		FA8EF8851EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson17_NumberSolitaire.swift; sourceTree = "<group>"; };
+		FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson15_AbsDistinct.swift; sourceTree = "<group>"; };
+		FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson15_CountDistinctSlices.swift; sourceTree = "<group>"; };
+		FA8EF88B1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_DwarfsRafting.swift; sourceTree = "<group>"; };
+		FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson16_MaxNonoverlappingSegments.swift; sourceTree = "<group>"; };
+		FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_TennisTournament.swift; sourceTree = "<group>"; };
+		FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_LongestPassword.swift; sourceTree = "<group>"; };
+		FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_FloodDepth.swift; sourceTree = "<group>"; };
+		FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_SocksLaundering.swift; sourceTree = "<group>"; };
+		FA9620F41FBEF20000A4B668 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_CountTriangles.swift; sourceTree = "<group>"; };
+		FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_MinAbsSumOfTwo.swift; sourceTree = "<group>"; };
+		FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14_MinMaxDivision.swift; sourceTree = "<group>"; };
+		FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14_NailingPlanks.swift; sourceTree = "<group>"; };
+		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
+		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
+		FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoops.swift; sourceTree = "<group>"; };
+		FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_TreeProduct.swift; sourceTree = "<group>"; };
+		FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_HilbertMaze.swift; sourceTree = "<group>"; };
+		FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson92_DiamondsCount.swift; sourceTree = "<group>"; };
+		FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_ArrayRecovery.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1F2A001E953B0D002437F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1F2A0E1E953B44002437F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7ADD23AD2699DDD000333A52 /* Training 5 - Coding skills */ = {
+			isa = PBXGroup;
+			children = (
+				7AF0409C26C027AE00324563 /* Training5_ParityDegree.swift */,
+				7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */,
+			);
+			name = "Training 5 - Coding skills";
+			sourceTree = "<group>";
+		};
+		7AF0409B26C024DA00324563 /* Training 6 */ = {
+			isa = PBXGroup;
+			children = (
+				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
+			);
+			name = "Training 6";
+			sourceTree = "<group>";
+		};
+		FA1F29FA1E953B0D002437F3 = {
+			isa = PBXGroup;
+			children = (
+				FAC133E01EF15A8100BCEBB9 /* README.md */,
+				FA9620F41FBEF20000A4B668 /* .travis.yml */,
+				FA1F2A051E953B0D002437F3 /* CodilityLessons */,
+				FA1F2A121E953B44002437F3 /* CodilityLessonsTests */,
+				FA1F2A041E953B0D002437F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1F2A041E953B0D002437F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A031E953B0D002437F3 /* CodilityLessons */,
+				FA1F2A111E953B44002437F3 /* CodilityLessonsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1F2A051E953B0D002437F3 /* CodilityLessons */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A061E953B0D002437F3 /* main.swift */,
+			);
+			path = CodilityLessons;
+			sourceTree = "<group>";
+		};
+		FA1F2A121E953B44002437F3 /* CodilityLessonsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A3DA4222008CB0064204D /* Lesson 1 Iterations */,
+				FA3A3DA5222008DE0064204D /* Lesson 2 Arrays */,
+				FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */,
+				FA3A3DA8222009330064204D /* Lesson 4 Counting Elements */,
+				FA3A3DA9222009440064204D /* Lesson 5 Prefix Sums */,
+				FA3A3DAA222009580064204D /* Lesson 6 Sorting */,
+				FA3A3DAB2220096A0064204D /* Lesson 7 Stacks and Queues */,
+				FA3A3DAC222009820064204D /* Lesson 8 Leader */,
+				FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */,
+				FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */,
+				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
+				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
+				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
+				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
+				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
+				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
+				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
+				FA3A3DB622200A380064204D /* Training 1 - Tasks from Indeed Prime 2015 challenge */,
+				FA3A3DB722200A4A0064204D /* Training 2 - Tasks from Indeed Prime 2016 challenge */,
+				FA3A3DB822200A5F0064204D /* Training 3 - Tasks from Indeed Prime 2016 College Coders challenge */,
+				FAE55B77221DD2810058DB8C /* Training 4 - Algorithmic skills */,
+				7ADD23AD2699DDD000333A52 /* Training 5 - Coding skills */,
+				7AF0409B26C024DA00324563 /* Training 6 */,
+				FA3A3DA62220090C0064204D /* In progress */,
+				FADC82F022E9EE320072D77C /* Swift Loops */,
+				FA1F2A151E953B44002437F3 /* Info.plist */,
+			);
+			path = CodilityLessonsTests;
+			sourceTree = "<group>";
+		};
+		FA3A3DA4222008CB0064204D /* Lesson 1 Iterations */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */,
+			);
+			name = "Lesson 1 Iterations";
+			sourceTree = "<group>";
+		};
+		FA3A3DA5222008DE0064204D /* Lesson 2 Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */,
+				FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */,
+			);
+			name = "Lesson 2 Arrays";
+			sourceTree = "<group>";
+		};
+		FA3A3DA62220090C0064204D /* In progress */ = {
+			isa = PBXGroup;
+			children = (
+				7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */,
+				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
+				FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */,
+				FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */,
+				FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */,
+			);
+			name = "In progress";
+			sourceTree = "<group>";
+		};
+		FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */,
+				FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */,
+				FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */,
+			);
+			name = "Lesson 3 Time Complexity";
+			sourceTree = "<group>";
+		};
+		FA3A3DA8222009330064204D /* Lesson 4 Counting Elements */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */,
+				FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */,
+				FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */,
+				FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */,
+			);
+			name = "Lesson 4 Counting Elements";
+			sourceTree = "<group>";
+		};
+		FA3A3DA9222009440064204D /* Lesson 5 Prefix Sums */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */,
+				FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */,
+				FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */,
+				FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */,
+			);
+			name = "Lesson 5 Prefix Sums";
+			sourceTree = "<group>";
+		};
+		FA3A3DAA222009580064204D /* Lesson 6 Sorting */ = {
+			isa = PBXGroup;
+			children = (
+				FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */,
+				FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */,
+				FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */,
+				FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */,
+			);
+			name = "Lesson 6 Sorting";
+			sourceTree = "<group>";
+		};
+		FA3A3DAB2220096A0064204D /* Lesson 7 Stacks and Queues */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */,
+				FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */,
+				FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */,
+				FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */,
+			);
+			name = "Lesson 7 Stacks and Queues";
+			sourceTree = "<group>";
+		};
+		FA3A3DAC222009820064204D /* Lesson 8 Leader */ = {
+			isa = PBXGroup;
+			children = (
+				FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */,
+				FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */,
+			);
+			name = "Lesson 8 Leader";
+			sourceTree = "<group>";
+		};
+		FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */ = {
+			isa = PBXGroup;
+			children = (
+				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
+				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
+				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
+			);
+			name = "Lesson 9 Maximum slice problem";
+			sourceTree = "<group>";
+		};
+		FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */ = {
+			isa = PBXGroup;
+			children = (
+				FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */,
+				FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */,
+				FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */,
+				FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */,
+			);
+			name = "Lesson 10 Prime and composite numbers";
+			sourceTree = "<group>";
+		};
+		FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */ = {
+			isa = PBXGroup;
+			children = (
+				FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */,
+				FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */,
+			);
+			name = "Lesson 11 Sieve of Eratosthenes";
+			sourceTree = "<group>";
+		};
+		FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */,
+				FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */,
+			);
+			name = "Lesson 12 Euclidean algorithm";
+			sourceTree = "<group>";
+		};
+		FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */ = {
+			isa = PBXGroup;
+			children = (
+				FA35586922B579060096503A /* Lesson13_Ladder.swift */,
+				FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */,
+			);
+			name = "Lesson 13 Fibonacci numbers";
+			sourceTree = "<group>";
+		};
+		FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */,
+				FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */,
+			);
+			name = "Lesson 14 Binary search algorithm";
+			sourceTree = "<group>";
+		};
+		FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
+				FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */,
+				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
+				FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */,
+			);
+			name = "Lesson 15 Caterpillar method";
+			sourceTree = "<group>";
+		};
+		FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
+				FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */,
+			);
+			name = "Lesson 16 Greedy algorithms";
+			sourceTree = "<group>";
+		};
+		FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EF8851EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift */,
+				FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */,
+			);
+			name = "Lesson 17 Dynamic programming";
+			sourceTree = "<group>";
+		};
+		FA3A3DB622200A380064204D /* Training 1 - Tasks from Indeed Prime 2015 challenge */ = {
+			isa = PBXGroup;
+			children = (
+				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
+				FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */,
+			);
+			name = "Training 1 - Tasks from Indeed Prime 2015 challenge";
+			sourceTree = "<group>";
+		};
+		FA3A3DB722200A4A0064204D /* Training 2 - Tasks from Indeed Prime 2016 challenge */ = {
+			isa = PBXGroup;
+			children = (
+				FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */,
+				FA8EF88B1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift */,
+			);
+			name = "Training 2 - Tasks from Indeed Prime 2016 challenge";
+			sourceTree = "<group>";
+		};
+		FA3A3DB822200A5F0064204D /* Training 3 - Tasks from Indeed Prime 2016 College Coders challenge */ = {
+			isa = PBXGroup;
+			children = (
+				FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */,
+				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
+				FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */,
+			);
+			name = "Training 3 - Tasks from Indeed Prime 2016 College Coders challenge";
+			sourceTree = "<group>";
+		};
+		FADC82F022E9EE320072D77C /* Swift Loops */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */,
+			);
+			name = "Swift Loops";
+			sourceTree = "<group>";
+		};
+		FAE55B77221DD2810058DB8C /* Training 4 - Algorithmic skills */ = {
+			isa = PBXGroup;
+			children = (
+				FA03AEB51EA63AE400663D2F /* Training4_ArrayInversionCount.swift */,
+				7ADD23B02699E22100333A52 /* Training4_DisappearingPairs.swift */,
+				7ADD23AE2699E19400333A52 /* Training4_FirstUnique.swift */,
+				FA7C20911EA77E290048284F /* Training4_PolygonConcavityIndex.swift */,
+				FA03AEB11EA608C600663D2F /* Training4_StrSymmetryPoint.swift */,
+				FA03AEB31EA60D5800663D2F /* Training4_TreeHeight.swift */,
+			);
+			name = "Training 4 - Algorithmic skills";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1F2A021E953B0D002437F3 /* CodilityLessons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1F2A0A1E953B0D002437F3 /* Build configuration list for PBXNativeTarget "CodilityLessons" */;
+			buildPhases = (
+				FA1F29FF1E953B0D002437F3 /* Sources */,
+				FA1F2A001E953B0D002437F3 /* Frameworks */,
+				FA1F2A011E953B0D002437F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodilityLessons;
+			productName = CodilityLessons;
+			productReference = FA1F2A031E953B0D002437F3 /* CodilityLessons */;
+			productType = "com.apple.product-type.tool";
+		};
+		FA1F2A101E953B44002437F3 /* CodilityLessonsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1F2A161E953B44002437F3 /* Build configuration list for PBXNativeTarget "CodilityLessonsTests" */;
+			buildPhases = (
+				FA1F2A0D1E953B44002437F3 /* Sources */,
+				FA1F2A0E1E953B44002437F3 /* Frameworks */,
+				FA1F2A0F1E953B44002437F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodilityLessonsTests;
+			productName = CodilityLessonsTests;
+			productReference = FA1F2A111E953B44002437F3 /* CodilityLessonsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1F29FB1E953B0D002437F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FA1F2A021E953B0D002437F3 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					FA1F2A101E953B44002437F3 = {
+						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA1F29FE1E953B0D002437F3 /* Build configuration list for PBXProject "CodilityLessons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1F29FA1E953B0D002437F3;
+			productRefGroup = FA1F2A041E953B0D002437F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1F2A021E953B0D002437F3 /* CodilityLessons */,
+				FA1F2A101E953B44002437F3 /* CodilityLessonsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1F2A0F1E953B44002437F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1F29FF1E953B0D002437F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F2A071E953B0D002437F3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1F2A0D1E953B44002437F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1F2A2B1E953C66002437F3 /* Lesson2_CyclicRotation.swift in Sources */,
+				FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */,
+				FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */,
+				FAD7743224CCBF1F00185FBA /* Lesson91_TreeProduct.swift in Sources */,
+				FA03AEB21EA608C600663D2F /* Training4_StrSymmetryPoint.swift in Sources */,
+				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
+				FAD7743024CCBF0900185FBA /* SwiftLoops.swift in Sources */,
+				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
+				FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */,
+				FAD7743424CCBF2600185FBA /* Lesson91_HilbertMaze.swift in Sources */,
+				FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */,
+				FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */,
+				FA03AEB61EA63AE400663D2F /* Training4_ArrayInversionCount.swift in Sources */,
+				FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */,
+				FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */,
+				FA1F2A2E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift in Sources */,
+				FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */,
+				FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */,
+				FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */,
+				FA1F2A361E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift in Sources */,
+				FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */,
+				FA35586C22B5792F0096503A /* Lesson13_FibFrog.swift in Sources */,
+				FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */,
+				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,
+				FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */,
+				FA03AEB41EA60D5800663D2F /* Training4_TreeHeight.swift in Sources */,
+				7ADD23AF2699E19400333A52 /* Training4_FirstUnique.swift in Sources */,
+				7ADD23B32699E25A00333A52 /* Training5_ThreeLetters.swift in Sources */,
+				FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */,
+				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,
+				FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */,
+				FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */,
+				FADC82FF22E9F5AC0072D77C /* Lesson92_DiamondsCount.swift in Sources */,
+				FA96D8F222BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift in Sources */,
+				FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */,
+				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
+				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
+				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
+				FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */,
+				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
+				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
+				FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */,
+				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
+				7ADD23B12699E22100333A52 /* Training4_DisappearingPairs.swift in Sources */,
+				FA96D8EE22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift in Sources */,
+				FA12631D2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift in Sources */,
+				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
+				FA7C20921EA77E290048284F /* Training4_PolygonConcavityIndex.swift in Sources */,
+				FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */,
+				7A0CE67326C033140000AD3F /* Training5_ParkingBill.swift in Sources */,
+				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */,
+				FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */,
+				FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */,
+				FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */,
+				FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */,
+				FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */,
+				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
+				FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */,
+				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
+				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
+				FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */,
+				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
+				FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */,
+				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
+				FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */,
+				7AF0409D26C027AE00324563 /* Training5_ParityDegree.swift in Sources */,
+				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,
+				FA8EF88C1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift in Sources */,
+				FA1F2A2D1E953C66002437F3 /* Lesson3_PermMissingElem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA1F2A081E953B0D002437F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FA1F2A091E953B0D002437F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FA1F2A0B1E953B0D002437F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FA1F2A0C1E953B0D002437F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		FA1F2A171E953B44002437F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodilityLessonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.CodilityLessonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		FA1F2A181E953B44002437F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CodilityLessonsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = om.CodilityLessonsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1F29FE1E953B0D002437F3 /* Build configuration list for PBXProject "CodilityLessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F2A081E953B0D002437F3 /* Debug */,
+				FA1F2A091E953B0D002437F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1F2A0A1E953B0D002437F3 /* Build configuration list for PBXNativeTarget "CodilityLessons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F2A0B1E953B0D002437F3 /* Debug */,
+				FA1F2A0C1E953B0D002437F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1F2A161E953B44002437F3 /* Build configuration list for PBXNativeTarget "CodilityLessonsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1F2A171E953B44002437F3 /* Debug */,
+				FA1F2A181E953B44002437F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1F29FB1E953B0D002437F3 /* Project object */;
+}
